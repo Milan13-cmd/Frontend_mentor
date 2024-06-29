@@ -83,7 +83,7 @@ form{
 .form-container {
   position: relative;
   min-width: 400px;
-  width: 400px; /* Adjust as needed */
+  width: 500px; /* Adjust as needed */
   height: 650px;
   margin: 0 auto; /* Center the form */
   padding: 20px;
@@ -129,7 +129,7 @@ input[type="text"]{
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 160px;
+  width: 100%;
 
 }
 
@@ -141,7 +141,7 @@ input[type="text"]{
 }
 
 input[type="email"]{
-  width: 350px;
+  width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -158,11 +158,12 @@ input[type="email"]{
 }
 
 .query-group{
-  width: 170px;
-  padding: 8px;
+  width: 100%;
+  padding: 18px;
   border: 1px solid #ccc;
   border-radius: 4px;
   display: flex;
+  align-items: center;
   flex-direction: row;
   gap:20px;
  
